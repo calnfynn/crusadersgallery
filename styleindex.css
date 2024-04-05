@@ -1,0 +1,269 @@
+body {
+    background-color: silver;
+    background-image: 
+    radial-gradient(circle at 100% 150%, silver 24%, snow 24%, snow 28%, silver 28%, silver 36%, snow 36%, snow 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, silver 24%, snow 24%, snow 28%, silver 28%, silver 36%, snow 36%, snow 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, snow 10%, silver 10%, silver 23%, snow 23%, snow 30%, silver 30%, silver 43%, snow 43%, snow 50%, silver 50%, silver 63%, snow 63%, snow 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, snow 5%, silver 5%, silver 15%, snow 15%, snow 20%, silver 20%, silver 29%, snow 29%, snow 34%, silver 34%, silver 44%, snow 44%, snow 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, snow 5%, silver 5%, silver 15%, snow 15%, snow 20%, silver 20%, silver 29%, snow 29%, snow 34%, silver 34%, silver 44%, snow 44%, snow 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
+}
+
+header {
+    color: rgba(46, 49, 49, 1);
+    background:rgba(255,255,255, 0.6);
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 20%;
+    min-height: 200px;
+    font-family: Lucida Bright, Georgia, serif; 
+    font-size: 85px; 
+    font-style: normal; 
+    font-variant: small-caps; 
+    font-weight: 700; 
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    background-color: rgba(255,255,255, 0.6);
+    margin: auto;
+    width: 80%;
+    height: 10%;
+    min-height: 50px;
+}
+section {
+    background:rgba(255,255,255, 0.7);
+    padding: 40px;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    min-height: 550px;
+    color: rgba(46, 49, 49, 1);
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+footer {
+    background:rgba(255,255,255, 0.6);
+    margin: 30px auto;
+    width: 80%;
+    height: 10%;
+    min-height: 50px;
+    font-family: Lucida Bright, Georgia, serif;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    color: rgba(46, 49, 49, 1);
+}
+
+table {
+    width: 90%;
+    align-items: right;
+    margin: auto;
+    padding: 20px 15px 20px 15px;
+    box-sizing: border-box;
+    table-layout: fixed;
+}
+td {
+    text-align: right;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+th {
+    text-align: right;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+h1 {
+    font-family: Lucida Bright, Georgia, serif;
+    size: 27px;
+    text-align: center;
+    padding: 15px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: rgba(51, 54, 54, 1);
+}
+
+p {
+    font-size: 20px;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+em {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.textwrapper {
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    size: 40px;
+    text-align: justify;
+    padding: 50px;
+}
+
+.image {
+    width: 250px;
+    height: 400px;
+    padding: 15px 0px 15px 0px;
+    margin: auto;
+    }
+   
+.small-image {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.tg {
+    text-align: center;
+    /*padding: 7px;
+    /*background-color: grey;
+    height: 20%;
+    width: 20%;*/
+}
+
+a.activebutton {
+    color: rgba(46, 49, 49, 1);
+    border: 2px solid rgba(46, 49, 49, 1);
+    border-radius: 4px;
+    background-color: silver;
+    margin: 5px auto;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    width: 18.2%;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-variant: small-caps; 
+    font-weight: bold;
+    display: inline-block;}
+
+a.inactivebutton {
+    color: rgba(46, 49, 49, 1);
+    border: 2px solid rgba(46, 49, 49, 1);
+    border-radius: 4px;
+    background-color: Snow;
+    margin: 5px auto;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    width: 18.2%;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-variant: small-caps; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+a.inactivebutton:hover {
+    background-color: silver;
+    color: rgba(46, 49, 49, 1);
+    cursor: pointer;
+}
+
+.h2 {
+    font-family: Lucida Bright, Georgia, serif;
+    size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: rgba(51, 54, 54, 1);
+}
+
+.productimage {
+    /*width: 100px;
+    height: 150px;*/
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+}
+
+.producttext {
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    size: 19px;
+    text-align: center;
+    padding: 10px;
+}
+
+.smallbutton {
+    color: rgba(46, 49, 49, 1);
+    border: 2px solid rgba(46, 49, 49, 1);
+    border-radius: 4px;
+    background-color: Snow;
+    margin: 1px;
+    padding: 7px 16px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    width: 100%
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-variant: small-caps; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+.smallbutton:hover {
+    background-color: silver;
+    color: rgba(46, 49, 49, 1);align
+    cursor: pointer;
+}
+
+form.micro-button {
+    color: rgba(46, 49, 49, 1);
+    border: 2px solid rgba(46, 49, 49, 1);
+    border-radius: 4px;
+    background-color: Snow;
+    margin: 1px;
+    padding: 7px 16px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    width: 45%
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-variant: small-caps; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+form.microbutton:hover {
+    background-color: silver;
+    color: rgba(46, 49, 49, 1);
+    cursor: pointer;
+}
+
+.cart-smallbutton {
+    color: rgba(46, 49, 49, 1);
+    border: 2px solid rgba(46, 49, 49, 1);
+    border-radius: 4px;
+    background-color: Snow;
+    margin: 1px;
+    padding: 7px 16px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    width: 100%
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-variant: small-caps; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+.details {
+    text-align: justify;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    size: 19px;
+    padding: 20px,
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
