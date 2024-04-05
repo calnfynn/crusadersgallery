@@ -9,7 +9,7 @@
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
-    <meta name="author" content="Anna Rahr, 1583353">
+    <meta name="author" content="--">
     <title>Crusaders Gallery</title>
     <link rel="stylesheet" href="styleindex.css">
 </head>
